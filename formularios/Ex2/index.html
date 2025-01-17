@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat 2</title>
+</head>
+<body>
+    <h1>Tienda de altavoces</h1>
+    <form id="form2">
+        <h2>Modelo</h2>
+        <select name="modelo" required>
+            <option value="0"></option>
+            <option value="1">R4</option>
+            <option value="2">R5</option>
+            <option value="3">SR1</option>
+        </select>
+        <br>
+        <h2>Potendia máxima</h2>
+        <input type="number" min="50" max="100" required>
+        <h2>¿Bluetooh?</h2>
+        <input type="radio" name="bluetooh" id="si" value="conbluetooh"><label>Con Bluetooh</label>
+        <br>
+        <input type="radio" name="bluetooh" id="no" value="sinbluetooh"><label>Sin Bluetooh</label>
+        <br>
+        <h2>Color</h2>
+        <select name="color">
+            <option value="" aria-label="color" disabled selected>Seleccione color</option>
+            <option value="0">Negro</option>
+            <option value="1">Blanco</option>
+            <option value="2">Gris</option>
+            <option value="3">Amarillo</option>
+            <option value="4">Rojo</option>
+        </select>
+        <br>
+        <button type="submit" id="form2">Enviar</button>
+    </form>
+</body>
+</html>
