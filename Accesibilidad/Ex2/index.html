@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat 2</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    <div aria-live="registro">
+        <p>Formulario de registro registrate en nuestro sitio</p>
+    </div>
+    <form id="form">
+        <label for="nom">Nombre
+        </label>
+        <input type="text" id="nom">
+        <br>
+        <label for="gmail">Correo eléctronico</label>
+        <input type="email" id="gmail">
+        <br>
+        <label for="direccion">Dirección</label>
+        <input type="text" id="direccion">
+        <br>
+        <label for="tel">Teléfono</label>
+        <input type="number" id="tel" min="0" max="999999999">
+        <br>
+        <label for="user">Nombre de usuario</label>
+        <input type="text" id="user">
+        <br>
+        <label for="contasena">Contraseña</label>
+        <input type="password" id="contasena">
+        <br><br>
+        <input type="checkbox" id="condiciones">
+        <label for="condiciones">Acepta los terminos y condiciones</label>
+        <span
+            role="checkbox"
+            aria-checked="false"
+            tabindex="0"
+            aria-labelledby="condiciones"></span>
+
+
+        <br><br>
+        <button type="submit" id="form">Enviar</button>
+    </form>
+    
+</body>
+</html>
